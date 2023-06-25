@@ -16,9 +16,10 @@ const Card = () => {
  
         <div className="card card-container mt-5 ">
                 {
-                    cardItem.map((item)=>(
-                        <SingleCard item={item}></SingleCard>
-                    ))
+                    cardItem.map((item)=>
+                        <SingleCard key={item.id}
+                        item={item}></SingleCard>
+                    )
                 }
                 
           

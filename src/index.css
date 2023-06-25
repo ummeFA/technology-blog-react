@@ -36,8 +36,38 @@ h1 {
 h2{
   margin-left: 35px;
 }
-
-button {
+h3,h6{
+  text-align: left;
+}
+h6 a .mark-read{
+  text-align: left;
+  margin-bottom: 40px;
+}
+/* .side-card{
+  background-color: #6047EC;
+  opacity: 20%;
+} */
+.side-card h2{
+  color: #510ef9;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 0;
+}
+.side-card-title{
+  background-color:#e3e3f7 ;
+  opacity: 80%;
+}
+.circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.d-flex{
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -45,16 +75,24 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  text-align: left;
   cursor: pointer;
+  margin-bottom: 30px;
   transition: border-color 0.25s;
+} */
+
+.btn-btn-primary{
+  text-align: left;
+  border: 1px solid transparent;
+  margin-right: 120px;
 }
 button:hover {
-  border-color: #646cff;
+  color: #646cff;
 }
-button:focus,
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {

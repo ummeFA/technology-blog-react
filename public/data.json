@@ -5,10 +5,10 @@
         "name": "Alice Johnson",
         "image": "..."
       },
-      "title": "The Art of Photography",
+      "title": "How to get your first job as a self-taught programmer.",
       "images": {
         "blogCoverImage": "../images/bg 1.jpg",
-        "authorImage": "https://example.com/alice_johnson.jpg"
+        "authorImage": "../images/author 2.jpg"
       },
       "readTime": 8,
       "publishDate": "2023-06-20"
@@ -19,10 +19,10 @@
         "name": "David Miller",
         "image": "https://example.com/david_miller.jpg"
       },
-      "title": "The Power of Positive Thinking",
+      "title": "How to get your first job as a self-taught programmer.",
       "images": {
         "blogCoverImage": "../images/bg 2.jpg",
-        "authorImage": "https://example.com/david_miller.jpg"
+        "authorImage": "../images/author 3.jpg"
       },
       "readTime": 6,
       "publishDate": "2023-06-21"
@@ -33,10 +33,10 @@
         "name": "Emma Wilson",
         "image": "https://example.com/emma_wilson.jpg"
       },
-      "title": "Delicious and Healthy Smoothie Recipes",
+      "title": "How to get your first job as a self-taught programmer.",
       "images": {
         "blogCoverImage": "../images/bg 3.jpg",
-        "authorImage": "https://example.com/emma_wilson.jpg"
+        "authorImage": "../images/author 2.jpg"
       },
       "readTime": 12,
       "publishDate": "2023-06-22"
@@ -47,10 +47,10 @@
         "name": "Michael Thompson",
         "image": "https://example.com/michael_thompson.jpg"
       },
-      "title": "Exploring Ancient Civilizations",
+      "title": "How to get your first job as a self-taught programmer.",
       "images": {
         "blogCoverImage": "../images/bg 4.jpg",
-        "authorImage": "https://example.com/michael_thompson.jpg"
+        "authorImage": "../images/author 3.jpg"
       },
       "readTime": 15,
       "publishDate": "2023-06-23"

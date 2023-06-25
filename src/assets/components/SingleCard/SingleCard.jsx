@@ -11,21 +11,30 @@ const SingleCard = (props) => {
                 
             <div>
                 <div className="">
-                    <div className="grid col">
-                        <div>
-                            <h5>{itemsCards.item.author.name}</h5> 
-                            <h3>{itemsCards.item.title}</h3>
-                            <p>Mar 14(4 days ago)</p>
+                    <div className="">
+                        <div className="d-flex">
+                            <div className="d-flex">
+                                <img src={itemsCards.item.images.authorImage} className="circle"></img>
+                                <div>
+                                    <h5>{itemsCards.item.author.name}</h5>                           
+                                    <p>Mar 14(4 days ago)</p>
+                                </div>
+                            </div>
+                            <div className="d-flex">
+                                 <h6>{itemsCards.item.readTime} min to read</h6>
+                                 <img src="../../../../images/bookmark.svg"></img>
+                            </div>
+                            
                         </div>
                         <div>
-                        <h6 className="col-md-2 ml-5 text-center">5 min to read</h6>
+                        
+                        <h3>{itemsCards.item.title}</h3>
                         </div>
                     </div>
                                     
-                    <div>
-                        
+                    <div>                        
                         <h6>#programming #beginner</h6>
-                        <a href="" className="mark-read">Mark as read</a>
+                        <button className="btn-btn-primary">Mark as read</button>
                     </div>
                 </div>
             </div>
