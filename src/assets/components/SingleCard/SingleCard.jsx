@@ -5,10 +5,11 @@ import  './SingleCard.css'
 const SingleCard = (props) => {
     
     const itemsCards = props;
-    console.log(itemsCards);
- console.log(props.bookMark);
+    // console.log(itemsCards);
+    // console.log(props.bookMark);
+    const handleTime=props.handleTime;
    const bookMark = props.bookMark;
-   const readMark = props.readMark;
+//    const readMark = props.readMark;
 
     return (
         <div>
@@ -42,7 +43,7 @@ const SingleCard = (props) => {
                                     
                     <div>                        
                         <h5>#programming #beginner</h5>
-                        <button onClick={()=>readMark(itemsCards.item.readTime)} className="btn-btn-primary">Mark as read</button>
+                        <button onClick={()=>handleTime(itemsCards.item.readTime)} className="btn-btn-primary">Mark as read</button>
                     </div>
                     <hr></hr>
                 </div>

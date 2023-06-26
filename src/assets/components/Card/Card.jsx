@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import SingleCard from "../SingleCard/SingleCard";
 import './Card.css'
 
-const Card = () => {
+const Card = ({handleTime,readTime}) => {
     const [cardItem, setCarditem] = useState([])
     const [addTotalBookmark, setAddTotalBookmark] = useState([])
-    const [countTotalReadTime, setCountTotalReadTime] = useState([])
+    // const [countTotalReadTime, setCountTotalReadTime] = useState([])
     
     useEffect(()=>{
         fetch("../../../public/data.json")
@@ -22,10 +22,10 @@ const Card = () => {
         setAddTotalBookmark(newAddBookmark);
     }
 
-    const readMark = (item) =>{
-        const newAddTotalReadTime = [...countTotalReadTime, item];
-        setCountTotalReadTime(newAddTotalReadTime);
-    }
+    // const readMark = (item) =>{
+    //     const newAddTotalReadTime = [...countTotalReadTime, item];
+    //     setCountTotalReadTime(newAddTotalReadTime);
+    // }
 
     return (
  
@@ -36,7 +36,8 @@ const Card = () => {
                     {item.id}
                     item={item}
                     bookMark={bookMark}
-                    readMark={readMark}
+                    // readMark={readMark}
+                    handleTime={handleTime}
                     >               
                     </SingleCard>
                 )}
@@ -46,7 +47,7 @@ const Card = () => {
                 
             <div className="side-card-title card">
                 <div className="side-card">
-                    <h2 >Spent time on read: {countTotalReadTime} mins</h2>
+                    <h2 >Spent time on read: {readTime} mins</h2>
                 </div>
                 
                 </div>
