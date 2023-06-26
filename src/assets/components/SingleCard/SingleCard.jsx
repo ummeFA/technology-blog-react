@@ -13,13 +13,11 @@ const SingleCard = (props) => {
 
     return (
         <div>
-            <div className="card-bg-image w-60 h-30 m-auto">
-                <img className="w-100 m-2" src={itemsCards.item.images.blogCoverImage}></img>
+            <div className="mb-5">
+                <img className="w-100 " src={itemsCards.item.images.blogCoverImage}></img>
             </div>
                 
             <div>
-                <div className="">
-                    <div className="">
                         <div className="d-flex">
                             <div className="d-flex">
                                 <img src={itemsCards.item.images.authorImage} className="circle"></img>
@@ -47,9 +45,6 @@ const SingleCard = (props) => {
                     </div>
                     <hr></hr>
                 </div>
-            </div>
-                
-        </div>
     );
 };
 

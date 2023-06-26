@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "author": {
+        "name": "Alice Johnson",
+        "image": "..."
+      },
+      "title": "How Technology is Changing the World.",
+      "images": {
+        "blogCoverImage": "../images/bg 1.jpg",
+        "authorImage": "../images/author 2.jpg"
+      },
+      "readTime": 8,
+      "publishDate": "2023-06-20"
+    },
+    {
+      "id": 2,
+      "author": {
+        "name": "David Miller",
+        "image": "https://example.com/david_miller.jpg"
+      },
+      "title": "The Role of Technology in Education: Enhancing Learning and Collaboration.",
+      "images": {
+        "blogCoverImage": "../images/bg 2.jpg",
+        "authorImage": "../images/author 3.jpg"
+      },
+      "readTime": 6,
+      "publishDate": "2023-06-21"
+    },
+    {
+      "id": 3,
+      "author": {
+        "name": "Emma Wilson",
+        "image": "https://example.com/emma_wilson.jpg"
+      },
+      "title": "How to Build a Successful Mobile App: Tips and Strategies.",
+      "images": {
+        "blogCoverImage": "../images/bg 3.jpg",
+        "authorImage": "../images/author 2.jpg"
+      },
+      "readTime": 12,
+      "publishDate": "2023-06-22"
+    },
+    {
+      "id": 4,
+      "author": {
+        "name": "Michael Thompson",
+        "image": "https://example.com/michael_thompson.jpg"
+      },
+      "title": "The Pros and Cons of Working in Tech: Is It the Right Career for You?",
+      "images": {
+        "blogCoverImage": "../images/bg 4.jpg",
+        "authorImage": "../images/author 3.jpg"
+      },
+      "readTime": 15,
+      "publishDate": "2023-06-23"
+    }
+  ]
+  

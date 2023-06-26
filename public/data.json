@@ -7,8 +7,8 @@
       },
       "title": "How Technology is Changing the World.",
       "images": {
-        "blogCoverImage": "../images/bg 1.jpg",
-        "authorImage": "../images/author 2.jpg"
+        "blogCoverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaCUyMGJsb2d8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "authorImage": "https://images.unsplash.com/profile-1647446365186-2db761794072image?auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
       },
       "readTime": 8,
       "publishDate": "2023-06-20"
@@ -17,12 +17,12 @@
       "id": 2,
       "author": {
         "name": "David Miller",
-        "image": "https://example.com/david_miller.jpg"
+        "image": ""
       },
       "title": "The Role of Technology in Education: Enhancing Learning and Collaboration.",
       "images": {
-        "blogCoverImage": "../images/bg 2.jpg",
-        "authorImage": "../images/author 3.jpg"
+        "blogCoverImage": "https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://img.freepik.com/free-photo/vertical-shot-contemplative-thoughtful-dark-skinned-man-keeps-hand-chin-looks-thoughtfully-upwards_273609-23820.jpg?q=10&h=200"
       },
       "readTime": 6,
       "publishDate": "2023-06-21"
@@ -35,8 +35,8 @@
       },
       "title": "How to Build a Successful Mobile App: Tips and Strategies.",
       "images": {
-        "blogCoverImage": "../images/bg 3.jpg",
-        "authorImage": "../images/author 2.jpg"
+        "blogCoverImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtCUZzPYZNJCVan-MNAwffQ6VJHHNIw9ybgeYLTD3JzlRrmd6lD8g0j6V4E17dJ2mBaxs&usqp=CAU"
       },
       "readTime": 12,
       "publishDate": "2023-06-22"
@@ -49,8 +49,8 @@
       },
       "title": "The Pros and Cons of Working in Tech: Is It the Right Career for You?",
       "images": {
-        "blogCoverImage": "../images/bg 4.jpg",
-        "authorImage": "../images/author 3.jpg"
+        "blogCoverImage": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://www.byrdie.com/thmb/osJ_pwelu_BO04LbzM-NumhZY7Q=/200x200/filters:no_upscale():max_bytes(150000):strip_icc()/BarretWertz-5e1476ef95a94c479733c2336a6b6a0d.jpg"
       },
       "readTime": 15,
       "publishDate": "2023-06-23"
