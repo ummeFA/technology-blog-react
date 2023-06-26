@@ -16,13 +16,16 @@ const Card = () => {
       },[]);
 
 
-    const bookMark=(item)=>{
+    const bookMark = (item) =>{
         // console.log(item);
         const newAddBookmark = [...addTotalBookmark, item];
         setAddTotalBookmark(newAddBookmark);
     }
 
-    
+    const readMark = (item) =>{
+        const newAddTotalReadTime = [...countTotalReadTime, item];
+        setCountTotalReadTime(newAddTotalReadTime);
+    }
 
     return (
  
@@ -33,6 +36,7 @@ const Card = () => {
                     {item.id}
                     item={item}
                     bookMark={bookMark}
+                    readMark={readMark}
                     >               
                     </SingleCard>
                 )}
@@ -42,7 +46,7 @@ const Card = () => {
                 
             <div className="side-card-title card">
                 <div className="side-card">
-                    <h2 >Spent time on read: {} mins </h2>
+                    <h2 >Spent time on read: {countTotalReadTime} mins</h2>
                 </div>
                 
                 </div>

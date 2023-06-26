@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import  './SingleCard.css'
@@ -6,8 +6,9 @@ const SingleCard = (props) => {
     
     const itemsCards = props;
     console.log(itemsCards);
-
+ console.log(props.bookMark);
    const bookMark = props.bookMark;
+   const readMark = props.readMark;
 
     return (
         <div>
@@ -28,7 +29,7 @@ const SingleCard = (props) => {
                             </div>
                             <div className="d-flex">
                                  <h6>{itemsCards.item.readTime} min to read</h6>
-                                 <button onClick={()=>bookMark(itemsCards.item.readTime)}className="icon-button"><FontAwesomeIcon icon={faBookmark} /></button>
+                                 <button onClick={()=>bookMark()}className="icon-button"><FontAwesomeIcon icon={faBookmark} /></button>
                                  
                             </div>
                             
@@ -41,7 +42,7 @@ const SingleCard = (props) => {
                                     
                     <div>                        
                         <h5>#programming #beginner</h5>
-                        <button className="btn-btn-primary">Mark as read</button>
+                        <button onClick={()=>readMark(itemsCards.item.readTime)} className="btn-btn-primary">Mark as read</button>
                     </div>
                     <hr></hr>
                 </div>
