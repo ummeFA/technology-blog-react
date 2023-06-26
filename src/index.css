@@ -67,6 +67,20 @@ h6 a .mark-read{
   margin-left: 10px;
   margin-top: 5px;
 }
+.booked-items{
+  background-color: #e0e0ed;
+  border-radius: 5px;
+}
+.booked-items h2{
+  font-size: 20px;
+  margin: 20px;
+  color: black;
+}
+.card-total {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 20px;
+}
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -85,9 +99,15 @@ h6 a .mark-read{
   text-align: left;
   border: 1px solid transparent;
   margin-right: 120px;
+  margin-bottom: 100px;
+  padding: 10px;
+  margin-left: 0;
 }
 button:hover {
   color: #646cff;
+}
+.booked-items{
+  margin: 10px;
 }
 /* button:focus,
 button:focus-visible {

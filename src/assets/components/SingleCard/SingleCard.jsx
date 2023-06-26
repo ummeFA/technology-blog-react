@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const SingleCard = (props) => {
+    
     const itemsCards = props;
     console.log(itemsCards);
+
+   const markRead = props.markRead;
+
     return (
         <div>
-            <div className="card-bg-image w-60 h-50 m-auto">
+            <div className="card-bg-image w-60 h-30 m-auto">
                 <img className="w-100 m-2" src={itemsCards.item.images.blogCoverImage}></img>
             </div>
                 
@@ -34,7 +38,7 @@ const SingleCard = (props) => {
                                     
                     <div>                        
                         <h6>#programming #beginner</h6>
-                        <button className="btn-btn-primary">Mark as read</button>
+                        <button onClick={()=>markRead(itemsCards.item.readTime)} className="btn-btn-primary">Mark as read</button>
                     </div>
                 </div>
             </div>

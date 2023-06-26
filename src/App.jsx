@@ -8,7 +8,19 @@ import NavigationBar from './assets/components/NavigationBar/NavigationBar'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [totalBookmark, setTotalBookmark]=useState("");
+
+  // const handleBookmark =(item)=>{
+  //   const previousBookmark = JSON.parse(localStorage.getItem("totalBookmark"));
+  //   if(previousBookmark){
+  //     const sum = previousBookmark+sum;
+  //     localStorage.setItem("totalBookmark",sum);      
+  //   }else{
+  //     localStorage.setItem("totalBookmark",item);      
+  //   }
+  // }
+
+
 
   return (
     <>
@@ -19,12 +31,8 @@ function App() {
         
         <div className="main row w-100">
             
-          <div className="card-container col-md-9">
+          <div className="">
             <Card></Card>
-          </div>
-
-          <div  className="side-card col-md-3 mt-5">
-            <SideCard></SideCard>
           </div>
         </div>
  
