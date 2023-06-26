@@ -5,7 +5,7 @@ import './NavigationBar.css'
         <div className="navbar-fixed-top">
             <nav className="navbar bg-light">
                 <div>
-                    <h2 className="navbar-brand">Knowledge Cafe</h2>
+                    <h2 className="navbar-brand">New Knowledge Cafe</h2>
                 </div>
 
                 <div className="">
