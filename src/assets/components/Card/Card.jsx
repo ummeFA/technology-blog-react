@@ -7,7 +7,6 @@ import './Card.css'
 const Card = ({handleTime,readTime}) => {
     const [cardItem, setCarditem] = useState([])
     const [addTotalBookmark, setAddTotalBookmark] = useState([])
-    // const [countTotalReadTime, setCountTotalReadTime] = useState([])
     
     useEffect(()=>{
         fetch("../../../public/data.json")
@@ -17,15 +16,10 @@ const Card = ({handleTime,readTime}) => {
 
 
     const bookMark = (item) =>{
-        // console.log(item);
         const newAddBookmark = [...addTotalBookmark, item];
         setAddTotalBookmark(newAddBookmark);
     }
 
-    // const readMark = (item) =>{
-    //     const newAddTotalReadTime = [...countTotalReadTime, item];
-    //     setCountTotalReadTime(newAddTotalReadTime);
-    // }
 
     return (
  
@@ -36,7 +30,6 @@ const Card = ({handleTime,readTime}) => {
                     {item.id}
                     item={item}
                     bookMark={bookMark}
-                    // readMark={readMark}
                     handleTime={handleTime}
                     >               
                     </SingleCard>
@@ -53,6 +46,7 @@ const Card = ({handleTime,readTime}) => {
                 </div>
                 <div className="booked-items">
                     <h2 >Bookmarked articles: {addTotalBookmark.length}</h2>
+                    <p>{addTotalBookmark}</p>
                 </div>
 
                

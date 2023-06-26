@@ -4,11 +4,11 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from './assets/components/Card/Card'
 import NavigationBar from './assets/components/NavigationBar/NavigationBar'
-import SingleCard from './assets/components/SingleCard/SingleCard'
 
 
 function App() {
  const [readTime, setReadTime] = useState("");
+
   const handleTime =(time)=>{
     const previousReadTime = JSON.parse(localStorage.getItem("readTime"));
     if(previousReadTime){
@@ -20,7 +20,9 @@ function App() {
       localStorage.setItem("readTime", time);
       setReadTime(time);
     }
+    
   }
+
   return (
     <>
         {/* main div */}

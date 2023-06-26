@@ -30,7 +30,7 @@ const SingleCard = (props) => {
                             </div>
                             <div className="d-flex">
                                  <h6>{itemsCards.item.readTime} min to read</h6>
-                                 <button onClick={()=>bookMark()}className="icon-button"><FontAwesomeIcon icon={faBookmark} /></button>
+                                 <button onClick={()=>bookMark(itemsCards.item.title)} className="icon-button"><FontAwesomeIcon icon={faBookmark} /></button>
                                  
                             </div>
                             
