@@ -3,7 +3,6 @@ import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from './assets/components/Card/Card'
-import SideCard from './assets/components/SideCard/SideCard'
 import NavigationBar from './assets/components/NavigationBar/NavigationBar'
 
 

@@ -7,7 +7,7 @@ const SingleCard = (props) => {
     const itemsCards = props;
     console.log(itemsCards);
 
-   const markRead = props.markRead;
+   const bookMark = props.bookMark;
 
     return (
         <div>
@@ -28,7 +28,8 @@ const SingleCard = (props) => {
                             </div>
                             <div className="d-flex">
                                  <h6>{itemsCards.item.readTime} min to read</h6>
-                                 <button className="icon-button"><FontAwesomeIcon icon={faBookmark} /></button>
+                                 <button onClick={()=>bookMark(itemsCards.item.readTime)}className="icon-button"><FontAwesomeIcon icon={faBookmark} /></button>
+                                 
                             </div>
                             
                         </div>
@@ -40,7 +41,7 @@ const SingleCard = (props) => {
                                     
                     <div>                        
                         <h5>#programming #beginner</h5>
-                        <button onClick={()=>markRead(itemsCards.item.readTime)} className="btn-btn-primary">Mark as read</button>
+                        <button className="btn-btn-primary">Mark as read</button>
                     </div>
                     <hr></hr>
                 </div>
