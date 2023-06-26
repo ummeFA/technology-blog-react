@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import  './SingleCard.css'
 const SingleCard = (props) => {
     
     const itemsCards = props;
@@ -20,13 +22,13 @@ const SingleCard = (props) => {
                             <div className="d-flex">
                                 <img src={itemsCards.item.images.authorImage} className="circle"></img>
                                 <div>
-                                    <h5>{itemsCards.item.author.name}</h5>                           
+                                    <h4>{itemsCards.item.author.name}</h4>                           
                                     <p>Mar 14(4 days ago)</p>
                                 </div>
                             </div>
                             <div className="d-flex">
                                  <h6>{itemsCards.item.readTime} min to read</h6>
-                                 <img src="../../../../images/bookmark.svg"></img>
+                                 <button className="icon-button"><FontAwesomeIcon icon={faBookmark} /></button>
                             </div>
                             
                         </div>
@@ -37,9 +39,10 @@ const SingleCard = (props) => {
                     </div>
                                     
                     <div>                        
-                        <h6>#programming #beginner</h6>
+                        <h5>#programming #beginner</h5>
                         <button onClick={()=>markRead(itemsCards.item.readTime)} className="btn-btn-primary">Mark as read</button>
                     </div>
+                    <hr></hr>
                 </div>
             </div>
                 

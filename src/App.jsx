@@ -8,20 +8,7 @@ import NavigationBar from './assets/components/NavigationBar/NavigationBar'
 
 
 function App() {
-  // const [totalBookmark, setTotalBookmark]=useState("");
-
-  // const handleBookmark =(item)=>{
-  //   const previousBookmark = JSON.parse(localStorage.getItem("totalBookmark"));
-  //   if(previousBookmark){
-  //     const sum = previousBookmark+sum;
-  //     localStorage.setItem("totalBookmark",sum);      
-  //   }else{
-  //     localStorage.setItem("totalBookmark",item);      
-  //   }
-  // }
-
-
-
+  
   return (
     <>
         {/* main div */}

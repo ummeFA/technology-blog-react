@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import SingleCard from "../SingleCard/SingleCard";
-
+import './Card.css'
 
 const Card = () => {
     const [cardItem, setCarditem] = useState([])
