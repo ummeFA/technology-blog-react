@@ -23,7 +23,7 @@ const SingleCard = (props) => {
                                 <img src={itemsCards.item.images.authorImage} className="circle"></img>
                                 <div>
                                     <h4>{itemsCards.item.author.name}</h4>                           
-                                    <p>Mar 14(4 days ago)</p>
+                                    <p>Mar 14 (4 days ago)</p>
                                 </div>
                             </div>
                             <div className="d-flex">
